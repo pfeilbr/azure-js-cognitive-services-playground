@@ -11,8 +11,10 @@ learn [azure cognitive services](https://docs.microsoft.com/en-us/azure/cognitiv
 - [cognitive-services/computer-vision docs](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 
 ## Running
-
-1. Create new cognitive services computer vision resource
+ 
+1. Create new cognitive services computer vision resource  
+    run `az login`, then `npm run provision`  
+    OR via portal
     ![](https://www.evernote.com/l/AAHErRlR-tFBJbb6x-JKpZTcsQpxXyx4KAAB/image.png)
 1. Copy [`.env.sample`](.env.sample) to `.env` and populate with values via the following steps.
 1. `CLIENT_ID`, `DOMAIN`
@@ -24,5 +26,3 @@ learn [azure cognitive services](https://docs.microsoft.com/en-us/azure/cognitiv
 1. `COGNITIVE_SERVICES_KEY`
     ![](https://www.evernote.com/l/AAHdTNN4abtGmq5ZKgwh2vD6uOURbM6mhHwB/image.png)
 1. run `npm start`
-
-
