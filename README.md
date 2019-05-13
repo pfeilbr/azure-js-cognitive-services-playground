@@ -12,6 +12,8 @@ learn [azure cognitive services](https://docs.microsoft.com/en-us/azure/cognitiv
 
 ## Running
 
+1. Create new cognitive services computer vision resource
+    ![](https://www.evernote.com/l/AAHErRlR-tFBJbb6x-JKpZTcsQpxXyx4KAAB/image.png)
 1. Copy [`.env.sample`](.env.sample) to `.env` and populate with values via the following steps.
 1. `CLIENT_ID`, `DOMAIN`
     ![](https://www.evernote.com/l/AAExoADr6tVHoLj4lOD_58FCSWmWAelxCrMB/image.png)
